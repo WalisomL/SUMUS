@@ -1,0 +1,99 @@
+body {
+  background: #242424;
+  color: #d8d8d9;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #d8d8d9;
+}
+
+p {
+  margin: 0;
+}
+
+main {
+  display: flex;
+  gap: 100px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.banner-motorista {
+  height: 100vh;
+}
+
+.login-google-e-apple {
+  display: flex;
+  align-items: baseline;
+  gap: 50px;
+}
+
+.container-formulario {
+  width: 600px;
+}
+
+.container-formulario form {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+::placeholder {
+  color: #fff;
+  font-size: 20px;
+}
+
+form input[type="text"],
+input[type="password"] {
+  font-size: 20px;
+  outline: none;
+  max-width: 100%;
+  height: 60px;
+  border: #ffffff solid 2px;
+  color: #ffffff;
+  background: none;
+}
+
+.container-lembrar-de-mim {
+  display: flex;
+  gap: 10px;
+}
+
+.botao-login {
+  text-align: center;
+  width: 140px;
+  padding: 10px 5px;
+  border: #ffffff solid 2px;
+  color: #fff;
+  background: none;
+}
+
+.botao-login:hover {
+  border: #6beece solid 2px;
+  color: #6beece;
+}
+
+a {
+  position: relative;
+}
+
+a::after {
+  content: "";
+  position: absolute;
+  background: #6beece;
+  left: 0;
+  bottom: -5px;
+  height: 2px;
+  width: 0%;
+}
+
+p:hover a::after {
+  width: 100%;
+  transition: 300ms;
+}

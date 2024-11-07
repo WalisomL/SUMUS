@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/tela_corrida_motorista.css">
+    <link rel="stylesheet" type="text/css" href="https://api.tomtom.com/maps-sdk-for-web/cdn/6.x/6.25.0/maps/maps.css" />
+    <script src="https://api.tomtom.com/maps-sdk-for-web/cdn/6.x/6.25.0/maps/maps-web.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://api.tomtom.com/maps-sdk-for-web/cdn/plugins/SearchBox/3.1.12/SearchBox.css" />
+
+</head>
+
+<body>
+    <main>
+        <section class="c-menu">
+            <div class="c-menu__items">
+                <a href="../index.html">
+                    <img src="../img/logo_sumus_branca.svg" class="c-menu__logo">
+                </a>
+                <ul class="c-menu__items">
+                    <li class="c-menu__item">Perfil</li>
+                    <li class="c-menu__item">Histórico</li>
+                    <li class="c-menu__item">Configurações</li>
+                </ul>
+            </div>
+        </section>
+        <section class="c-informacoes">
+            <div class="c-informacoes__foto"></div>
+
+            <ul class="c-informacoes__lista">
+                <li class="c-informacoes__item">Nome:</li>
+                <li class="c-informacoes__item">Necessidades:</li>
+                <li class="c-informacoes__item">Hospital:</li>
+                <li class="c-informacoes__item">Contato de Emergência:</li>
+                <li class="c-informacoes__item">Acompanhante:</li>
+                <li class="c-informacoes__item">Celular:</li>
+                <li class="c-informacoes__item">Endereço:</li>
+            </ul>
+        </section>
+        <div id="map"></div>
+    </main>
+    <script src="../script/map.js"></script>
+</body>
+
+</html>

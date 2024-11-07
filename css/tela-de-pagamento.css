@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #242424;
+  font-family: Arial;
+}
+
+.c-logo {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.logo {
+  width: 200px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+.c-pagamento {
+  max-width: 90%;
+  width: 500px;
+  background: #ffff;
+  padding: 30px;
+}
+
+.c-pagamento__formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.c-pagamento__endereco {
+  max-width: 100%;
+  padding: 10px;
+}
+
+.c-pagamento__metodos {
+  display: flex;
+ gap: 10px;
+}
+
+.c-pagamento__metodo {
+  display: flex;
+  justify-content: center;
+  border: solid 1px black;
+  border-radius: 5px;
+  width: 70px;
+  height: 50px;
+}
+
+.c-pagamento__metodo--ativo {
+  display: flex;
+  justify-content: center;
+  border: solid 1px black;
+  border-radius: 5px;
+  width: 70px;
+  height: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.c-pagamento__metodo-icone {
+  width: 50px;
+  height: 50px;
+}
+
+.c-pagamento__informacoes-cartao {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.c-pagamento__cartao-secao {
+  display: flex;
+  flex-direction: column;
+}
+
+.c-pagamento__numero-cartao {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.c-pagamento__bandeira {
+  width: 40px;
+}
+
+.c-pagamento__cartao-validade {
+  display: flex;
+  margin-top: 10px;
+  gap: 5px;
+}
+
+.c-pagamento__cadastrar-cartao {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.c-pagamento__cartao-cancelar {
+  width: 100px;
+  height: 40px;
+  background: #ffff;
+  border: none;
+  border: solid 2px #e4e4e4;
+  border-radius: 5px;
+}
+
+.c-pagamento__cartao-salvar {
+  width: 100px;
+  height: 40px;
+  background: #1a79ec;
+  color: #efefef;
+  border: none;
+  border-radius: 5px;
+}
+.c-pagamento__input {
+  padding: 10px;
+}

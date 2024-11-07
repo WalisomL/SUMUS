@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/tela_corrida_passageiro.css">
+    <link rel="stylesheet" type="text/css" href="https://api.tomtom.com/maps-sdk-for-web/cdn/6.x/6.25.0/maps/maps.css" />
+    <script src="https://api.tomtom.com/maps-sdk-for-web/cdn/6.x/6.25.0/maps/maps-web.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://api.tomtom.com/maps-sdk-for-web/cdn/plugins/SearchBox/3.1.12/SearchBox.css" />
+</head>
+
+<body>
+    <main>
+        <section class="c-menu">
+            <div class="c-menu__items">
+                <a href="../index.html"><img src="../img/logo_sumus_branca.svg" class="c-menu__logo"></a>
+                <ul class="c-menu__items">
+                    <li class="c-menu__item">Perfil</li>
+                    <li class="c-menu__item">Histórico</li>
+                    <li class="c-menu__item">Configurações</li>
+                </ul>
+            </div>
+        </section>
+        <section class="c-corrida">
+            <input type="text" class="c-corrida__pesquisa" placeholder="Para onde vamos?">
+            <div class="c-corrida__carros">
+                <div class="c-corrida__carro">
+
+                    <a href="../tela_de_pagamento/tela-de-pagamento.html"><img src="../img/carro.svg" alt="" class="c-corrida__carro"></a>
+                    <div class="c-corrida__descricao">
+                        <p>Carro Padrão</p>
+                        <p>R$ 30,00</p>
+                        <p></p>
+                    </div>
+                </div>
+
+                <div class="c-corrida__carro">
+                    <a href="../tela_de_pagamento/tela-de-pagamento.html"><img src="../img/carro.svg" alt="" class="c-corrida__carro"></a>
+                    <div class="c-corrida__descricao">
+                        <p>Carro Inclusivo</p>
+                        <p>R$ 30,00</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="c-mapa">
+
+            <div id="map"></div>
+            <section class="c-motorista">
+                <div class="c-motorista__perfil">
+                    <div class="c-motorista__foto"></div>
+                    <h1 class="c-motorista__nome">Pedro</h1>
+                </div>
+                <ul class="c-motorista__carro">
+                    <li>Experiência<br>12 anos</li>
+                    <li>Identificação<br>12.65.31</li>
+                    <li>Placa<br>AGH6G75</li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </section>
+        </section>
+    </main>
+    <script src="../script/map.js"></script>
+</body>
+
+</html>

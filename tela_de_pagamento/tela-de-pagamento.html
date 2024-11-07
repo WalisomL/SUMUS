@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/tela-de-pagamento.css">
+</head>
+
+<body>
+    <div class="c-logo">
+        <a href="../index.html"><img src="../img/logo_sumus_branca.svg" alt="" class="logo"></a>
+    </div>
+    <main>
+        <section class="c-pagamento">
+            <form action="" class="c-pagamento__formulario">
+                <label class="c-pagamento__titulo" for="regiao">País ou Região</label>
+                <input type="text" name="" id="regiao" class="c-pagamento__input">
+                <label class="c-pagamento__titulo" for="endereco">Endereço</label>
+                <input type="text" name="" id="endereco" class="c-pagamento__input">
+                <h1>Método de Pagamento</h1>
+                <div class="c-pagamento__metodos">
+                    <div class="c-pagamento__metodo--ativo">
+                        <img src="../img/cartao.svg" alt="" class="c-pagamento__metodo-icone">
+                    </div>
+                    <div class="c-pagamento__metodo">
+                        <img src="../img/google_pay.svg" alt=""  class="c-pagamento__metodo-icone">
+                    </div>
+                    <div class="c-pagamento__metodo">
+                        <img src="../img/apple_pay.svg" alt=""  class="c-pagamento__metodo-icone">
+                    </div>
+                    <div class="c-pagamento__metodo">
+                        <img src="../img/pix.svg" alt=""  class="c-pagamento__metodo-icone">
+                    </div>
+                </div>
+                <div class="c-pagamento__informacoes-cartao">
+                    <div class="c-pagamento__cartao-secao">
+                        <label class="c-pagamento__titulo" for="numeroCartao">Número do Cartão</label>
+                        <div class="c-pagamento__numero-cartao">
+                            <input type="number" class="c-pagamento__input" id="numeroCartao">
+                            <img src="../img/bandeira_visa.svg" alt="" class="c-pagamento__bandeira">
+                            <img src="../img/bandeira_mastercard.svg" alt="" class="c-pagamento__bandeira">
+                        </div>
+                    </div>
+                    <div class="c-pagamento__cartao-validade    ">
+                        <div class="c-pagamento__cartao-secao">
+                            <label class="c-pagamento__titulo" for="dataExpiracao">Expira</label>
+                            <input type="date" class="c-pagamento__input" id="dataExpiracao">
+                        </div>
+                        <div class="c-pagamento__cartao-secao">
+                            <label class="c-pagamento__titulo" for="codigoCartao">CVC</label>
+                            <input type="number" class="c-pagamento__input" id="codigoCartao">
+                        </div>
+                    </div>
+                </div>
+                <div class="c-pagamento__cadastrar-cartao">
+                    <button class="c-pagamento__cartao-cancelar">Cancelar</button>
+                    <button class="c-pagamento__cartao-salvar">Salvar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>

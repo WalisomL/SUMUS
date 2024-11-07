@@ -1,0 +1,96 @@
+body {
+  background: #242424;
+  color: #d8d8d9;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #d8d8d9;
+}
+
+p {
+  margin: 0;
+}
+
+.c-main {
+  display: flex;
+  gap: 100px;
+}
+
+.c-main__banner{
+  height: 100vh;
+  max-width: 100%;
+}
+
+.c-formulario {
+  width: 600px;
+  padding:20px;
+}
+
+.c-formulario__logo {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.formulario__input {
+  font-size: 20px;
+  margin-top: 30px;
+  outline: none;
+  border: 2px solid #ffffff;
+  height: 60px;
+  color: #ffffff;
+  background: none;
+}
+
+::placeholder {
+  color: #fff;
+  font-size: 20px;
+}
+
+.formulario__termos {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.formulario__botao{
+  text-align: center;
+  width: 140px;
+  padding: 10px 5px;
+  border: #ffffff solid 2px;
+  color: #fff;
+  background: none;
+}
+
+.formulario__botao:hover {
+  border: #6beece solid 2px;
+  color: #6beece;
+}
+
+span {
+  position: relative;
+}
+
+span::after {
+  content: "";
+  position: absolute;
+  background: #6beece;
+  left: 0;
+  bottom: -5px;
+  height: 2px;
+  width: 0%;
+}
+
+p:hover span::after {
+  width: 100%;
+  transition: 300ms;
+}

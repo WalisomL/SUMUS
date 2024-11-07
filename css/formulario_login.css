@@ -1,0 +1,101 @@
+body {
+  background: #242424;
+  color: #d8d8d9;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #d8d8d9
+}
+
+.c-main {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.c-main__banner {
+ height: 100vh;
+ max-width: 100%;; 
+}
+
+
+.c-formulario {
+  width: 600px;
+}
+
+.c-formulario__login-redes {
+  display: flex;
+  align-items: baseline;
+  gap: 50px;
+}
+
+.c-formulario__logo {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+
+::placeholder {
+  color: #fff;
+  font-size: 20px;
+}
+
+.formulario__input {
+  font-size: 20px;
+  margin-top: 30px;
+  outline: none;
+  height: 60px;
+  color: #fff;
+  border: 2px solid #ffffff;
+  background: none;
+}
+
+.formulario__lembrar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.formulario__botao{
+  display: inline-block;
+  text-align: center;
+  width: 140px;
+  padding: 10px 5px;
+  border: 2px solid #ffffff;
+  color: #fff;
+  background: none;
+}
+
+.formulario_.formulario__botao {
+  border: #6beece solid 2px;
+  color: #6beece;
+}
+
+.formulario__link {
+  position: relative;
+}
+
+.formulario__link::after {
+  content: "";
+  position: absolute;
+  background: #6beece;
+  left: 0;
+  bottom: -5px;
+  height: 2px;
+  width: 0%;
+}
+
+.formulario__registrar:hover .formulario__link::after {
+  width: 100%;
+  transition: 300ms;
+}
