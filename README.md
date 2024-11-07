@@ -11,11 +11,16 @@ javascript  html5  css3
 _____________________________________________________________________________________________________________
 
 Integrantes:
-Danilo Santos dos Reis
-Eduardo Zamengo do Nascimento
-João Victor Lazarini da Fonseca
-Luiz Guilherme Barcelos dos Santos
-Matheus Henrique Gonçalo da Silva
+Danilo Santos dos Reis;
+
+Eduardo Zamengo do Nascimento;
+
+João Victor Lazarini da Fonseca;
+
+Luiz Guilherme Barcelos dos Santos;
+
+Matheus Henrique Gonçalo da Silva;
+
 Walisom Lopes Souza
 _____________________________________________________________________________________________________________
 Veja o Site em Ação
