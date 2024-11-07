@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #242424;
+}
+
+.c-header {
+  display: flex;
+  width: 100%;
+  background: #edfdff;
+  padding: 10px 20px;
+}
+
+.c-header__navegacao {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.c-header__navegacao-lista {
+  display: flex;
+  margin: 0;
+}
+
+nav span {
+  font-size: 18px;
+}
+
+.c-header__navegacao-item{
+  list-style: none;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.c-header__navegacao-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.c-introducao {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+  margin-top: 100px;
+}
+
+.c-introducao__conteudo{
+  width: 50%;
+}
+
+
+.c-introducao__titulo {
+  color: #6beece;
+  margin: 0;
+  font-size: xx-large;
+}
+
+.c-introducao__paragrafo {
+  text-align: justify;
+  font-size: x-large;
+  color: #d8d8d9;
+}
+
+.c-servicos {
+  margin-top: 100px;
+  padding: 20px;
+}
+
+.c-servicos__lista {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.c-servicos__servico {
+  flex-direction: column;
+  padding: 10px 10px;
+  margin-top: 20px;
+}
+
+.c-servicos__descricao {
+  font-size: large;
+}
+
+.c-servicos__titulo,
+.c-servicos__descricao {
+  color: #d8d8d9;
+}
+
+.c-servicos__item {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.c-servicos__icone {
+  display: flex;
+  justify-content: center;
+}
+
+.c-motorista {
+  margin-top: 100px;
+  padding: 20px;
+}
+
+.c-motorista__titulo {
+  color: #6beece;
+  font-size: xx-large;
+}
+
+.c-motorista__conteudo {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.c-motorista__paragrafo {
+  color: #d8d8d9;
+  font-size: x-large;
+}
+
+.c-motorista__detalhes {
+  width: 50%;
+}
+
+ .c-motorista__paragrafo:first-child {
+  margin-top: 0;
+}
+
+.c-motorista__link {
+  position: relative;
+  color: #d8d8d9;
+  text-decoration: none;
+}
+
+.c-motorista__link::after {
+  content: "";
+  position: absolute;
+  background: #6beece;
+  left: 0;
+  bottom: -5px;
+  height: 2px;
+  width: 0%;
+}
+
+.c-motorista__paragrafo:hover .c-motorista__link::after {
+  width: 100%;
+  transition: 300ms;
+}
+
+.c-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  padding: 20px 20px;
+  background: #1f1e1e;
+}
+
+.c-footer__titulo {
+  color:#6beece;
+}
+
+.c-footer__lista {
+  padding: 0;
+  text-align: left;
+}
+
+.c-footer__item{
+  list-style: none;
+  color: #d8d8d9
+}
